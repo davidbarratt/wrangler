@@ -1,4 +1,4 @@
-FROM alpine
+FROM node:alpine
 
 ENV WRANGLER_VERSION 1.12.3
 
