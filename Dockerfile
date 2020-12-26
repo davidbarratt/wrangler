@@ -12,6 +12,7 @@ RUN apk add --no-cache --virtual .build-deps \
 
 WORKDIR /opt
 
+# I was hoping this would force install of wranglerjs but it doesn't. :(
 RUN wrangler init
 
 ENTRYPOINT [ "wrangler" ]
